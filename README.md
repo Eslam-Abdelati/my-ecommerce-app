@@ -1,12 +1,49 @@
-# React + Vite
+# My E-commerce App 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **E-commerce web application** built with **React**, **Tailwind CSS / Bootstrap**, and **localStorage** for demo data management.  
+This project is designed to showcase a scalable, responsive, and fully-featured online store.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ✨
 
-## Expanding the ESLint configuration
+- User authentication & protected routes
+- Product listing with categories & search
+- Product details page with image slider and reviews
+- Cart management with add/remove/update items
+- Checkout simulation with order summary
+- Responsive design (desktop, tablet, mobile)
+- Admin dashboard for managing products and orders (optional)
+- Persistent state using `localStorage`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Screenshots 📸
+
+![Home Page](screenshots/home.png)
+![Product Page](screenshots/product.png)
+![Cart Page](screenshots/cart.png)
+
+---
+
+## Tech Stack 🛠️
+
+- **Frontend:** React.js, Tailwind CSS / Bootstrap
+- **State Management:** React Context API
+- **Routing:** React Router
+- **Icons & UI:** Material UI, Font Awesome
+- **Data Storage:** localStorage
+- **Version Control:** Git & GitHub
+
+---
+
+## Installation ⚡
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/USERNAME/my-ecommerce-app.git
+2.  Install dependencies:
+npm install
+ 3.  Run the app locally:
+npm run dev
